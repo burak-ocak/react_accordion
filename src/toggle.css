@@ -1,0 +1,21 @@
+.eleman{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    margin: 15px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.btn{
+    font-size: 2rem;
+    background-color: grey;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    transition: 0.4s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
